@@ -7,7 +7,7 @@ $btclogin = array(
 "username" =>   "user",
 "password" =>   "pass",
 "host" =>       "localhost",
-"port" =>       "9332");
+"port" =>       "7913");
 
 // DB Settings
 $sqlogin = array(
@@ -36,5 +36,5 @@ $adminips = array(
 // NOT IMPLEMENTED YET ...
 $minfee   = 0;                          // min. hard fee on all transactions
 $feeperc  = 2.5;                        // fee for outgoing transactions in percentage
-$fee_account = "lal";  					// set to your own KEY to recieve fee´s there
+$fee_account = "";  					// set to your own KEY to recieve feeï¿½s there
 ?>
