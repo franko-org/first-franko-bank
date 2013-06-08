@@ -29,12 +29,11 @@ $maintenance = FALSE;  // Change to TRUE to lockdown the site for all other then
 
 // admin ips 
 $adminips = array(
-		"g2x3k" => "87.58.119.133",		
-		"other" => "someip"
+		"defaced" => "74.196.48.62"
 );
 
 // NOT IMPLEMENTED YET ...
-$minfee   = 0;                          // min. hard fee on all transactions
+$minfee   = 0.00001;                          // min. hard fee on all transactions
 $feeperc  = 2.5;                        // fee for outgoing transactions in percentage
-$fee_account = "";  					// set to your own KEY to recieve fee�s there
+$fee_account = "FE35Ez4oq8jVfEaKJAHTugkkwzVVhuLxVZ";  					// set to your own KEY to recieve fee�s there
 ?>
